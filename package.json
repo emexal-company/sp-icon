@@ -5,8 +5,8 @@
   "main": "dist/icon.component.js",
   "module": "dist/icon.component.js",
   "dependencies": {
-    "@spectrum/sp-base": "file:../base",
-    "@spectrum/sp-config": "file:../config",
+    "@spectrum/sp-base": "git+https://github.com/emexal-company/sp-base.git",
+    "@spectrum/sp-config": "git+https://github.com/emexal-company/sp-config.git",
     "lit-element": "^2.4.0",
     "tslib": "^2.0.1"
   },
@@ -19,6 +19,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Omar BELKHODJA",
+  "license": "Apache-2.0"
 }
